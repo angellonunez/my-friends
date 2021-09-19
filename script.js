@@ -3,5 +3,5 @@ document.getElementById("dateInput").addEventListener("change", function() {
     console.log(input);
 
     if (input == "1997-11-12") {
-        window.open("gabriel.html", "_blank");
+        window.open("gabriel.html", "_self");
     }})
